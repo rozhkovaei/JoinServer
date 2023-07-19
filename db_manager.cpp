@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int print_results( void* observer, int columns, char **data, char **names )
+int print_results( void* observer, int columns, char **data, char ** /*names*/ )
 {
     string result;
     
